@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container   } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import "./Section.css";
 
 
@@ -25,19 +25,25 @@ import "./Section.css";
 // Section component
 const Section = props => (
   <section className="section">
-    
-      <Row>
-        <Col xs="4" className="">
-        <img src="/images/AlmazDolubaev1.jpg" alt="img" />
-        </ Col>
-        <Col xs="8" className="">
-        <h1>About me</h1>
-        <h5>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.
 
-  Note: The section tag is not supported in Internet Explorer 8 and earlier versions.</h5>
-  </ Col>
-  </ Row>
-    
+    <Row>
+      <Col lg="4" md="12" className="">
+      <div>
+        <img className="photo" src="/images/AlmazDolubaev1.jpg" alt="img" />
+        </div>
+      </ Col>
+      <Col lg="8" md="12" className="">
+       <div>
+        <h2>My name is Almaz Dolubaev. I am a Full Stack JavaScript Web Developer. I build complex websites with full frontend and backend all the way from mockup to rollout and work with diverse teams to implement projects.
+        </h2>
+        <br></br>
+         <h2>
+         My previous experiences in banking and entrepreneurship helped me nurture my passion to coding, which has been always the area of my interest.   
+        </h2>
+      </div>
+      </ Col>
+    </ Row>
+
   </section>
 );
 

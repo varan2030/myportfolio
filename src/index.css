@@ -7,6 +7,11 @@ html, body, #root {
   padding: 0;
   margin: 0;
   height: 100%;
+  background-color: rgb(232,241,248);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
 }
 
 body { 

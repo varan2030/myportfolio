@@ -14,7 +14,8 @@ class App extends Component {
 
   // Set our state variables
   state = {
-    cardNumber: 3
+    cardNumber: 3,
+    display: "more..."
   }
   // Card is clicked
   clickCard = link => {
@@ -24,8 +25,10 @@ class App extends Component {
   displayProjects = () =>{
     if(this.state.cardNumber === 3){
     this.setState({cardNumber: 12})
+    this.setState({display: "less"})
     } else {
       this.setState({cardNumber: 3})
+      this.setState({display: "more..."})
     }
   }
 
@@ -59,7 +62,7 @@ class App extends Component {
                   link={project.link}/>))}
                   
           </Wrapper>
-          <h1 className="text-right" onClick={this.displayProjects} style={{cursor: 'pointer'}}>more...</h1 >
+          <h1 className="text-right" onClick={this.displayProjects} style={{cursor: 'pointer'}}>{this.state.display}</h1 >
         <Footer />
       </div>
      <div>

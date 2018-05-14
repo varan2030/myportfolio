@@ -2,18 +2,20 @@
 
 
 .section{
-  padding: 30px;
   background-color: rgba(255, 255, 255, 0.685);
   width: 100%;
-  opacity: 0.95;
   box-shadow: 0px 4px 8px  #999;
   transition: transform .2s; /* Animation */
+}
+
+.col{
+  padding: 40px;
 }
 
 .aboutMe{
   color: rgb(68, 67, 110);
   font-family: 'EB Garamond', serif;
-  font-size: 22px;
+  font-size: 23px;
   
   /* font: italic bold 20px/30px Georgia, serif; */
 }
@@ -27,6 +29,9 @@ h1{
 
 .photo{
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 

@@ -27,12 +27,12 @@ const Section = props => (
   <section className="section">
 
     <Row>
-      <Col lg="4" md="12" className="">
+      <Col lg="4" md="12" className="col">
       <div>
         <img className="photo" src="/images/AlmazDolubaev1.jpg" alt="img" />
         </div>
       </ Col>
-      <Col lg="8" md="12" className="">
+      <Col lg="8" md="12" className="col">
        <div>
         <div className="aboutMe" >My name is Almaz Dolubaev. I am a Full Stack JavaScript Web Developer. I build complex websites with full frontend and backend all the way from mockup to rollout and work with diverse teams to implement projects.
         </div>

@@ -1,78 +1,102 @@
 [
-  {
-    "id": 9,
-    "image": "/images/9.jpg",
-    "description": "Travel Lion",
-    "link": "https://varan2030.github.io/TravelLion/"
-  },
-  {
-    "id": 11,
-    "image": "/images/11.jpg",
-    "description": "Animal Kingdom",
-    "link": "https://animalkingdom.herokuapp.com/"
-  },
+    
   {
     "id": 12,
     "image": "/images/12.jpg",
-    "description": "Persona",
+    "title": "Persona",
+    "description": "",
+    "technologies": "",
     "link": "https://persona-com.herokuapp.com/"
   },
 
+  {
+    "id": 11,
+    "image": "/images/11.jpg",
+    "title": "Animal Kingdom",
+    "description": "",
+    "technologies": "",
+    "link": "https://animalkingdom.herokuapp.com/"
+  },
+  {
+    "id": 9,
+    "image": "/images/9.jpg",
+    "title": "Travel Lion",
+    "description": "",
+    "technologies": "",
+    "link": "https://varan2030.github.io/TravelLion/"
+  },
    {
     "id": 3,
     "image": "/images/3.jpg",
-    "description": "Christmas Trivia Game",
+    "title": "Christmas Trivia Game",
+    "description": "",
+    "technologies": "",
     "link": "https://varan2030.github.io/TriviaGame/"
   },
   {
-    "id": 2,
-    "image": "/images/2.jpg",
-    "description": "Crystal Game",
-    "link": "https://varan2030.github.io/crystal-collector/"
+    "id": 5,
+    "image": "/images/5.jpg",
+    "title": "Task Manager",
+    "description": "",
+    "technologies": "",
+    "link": "https://taskmanager-com.herokuapp.com/"
   },
+  
   {
     "id": 4,
     "image": "/images/4.jpg",
-    "description": "Wild Animals",
+    "title": "Wild Animals",
+    "description": "",
+    "technologies": "",
     "link": "https://varan2030.github.io/GifTastic/"
   },
   {
     "id": 1,
     "image": "/images/1.jpg",
-    "description": "Hangman. Music 90s",
+    "title": "Hangman. Music 90s",
+    "description": "",
+    "technologies": "",
     "link": "https://varan2030.github.io/Hangman-game/"
   },
   {
-    "id": 5,
-    "image": "/images/5.jpg",
-    "description": "Task Manager",
-    "link": "https://taskmanager-com.herokuapp.com/"
+    "id": 2,
+    "image": "/images/2.jpg",
+    "title": "Crystal Game",
+    "description": "",
+    "technologies": "",
+    "link": "https://varan2030.github.io/crystal-collector/"
   },
   {
     "id": 6,
     "image": "/images/6.jpg",
-    "description": "Friend Finder",
+    "title": "Friend Finder",
+    "description": "",
+    "technologies": "",
     "link": "https://friendfinder-com.herokuapp.com/"
   },
   {
     "id": 7,
     "image": "/images/7.jpg",
-    "description": "Train Schedule",
+    "title": "Train Schedule",
+    "description": "",
+    "technologies": "",
     "link": "https://varan2030.github.io/TrainActivity/"
   },
   {
     "id": 8,
     "image": "/images/8.jpg",
-    "description": "Eat-Da-Burger",
+    "title": "Eat-Da-Burger",
+    "description": "",
+    "technologies": "",
     "link": "https://burger-app-com.herokuapp.com/"
   },
  
   {
     "id": 10,
     "image": "/images/10.jpg",
-    "description": "Node.JS apps",
+    "title": "Node.JS apps",
+    "description": "",
+    "technologies": "",
     "link": "https://github.com/varan2030?tab=repositories"
-  }
-  
-  
+  }  
 ]

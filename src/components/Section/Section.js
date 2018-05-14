@@ -34,12 +34,12 @@ const Section = props => (
       </ Col>
       <Col lg="8" md="12" className="">
        <div>
-        <h2>My name is Almaz Dolubaev. I am a Full Stack JavaScript Web Developer. I build complex websites with full frontend and backend all the way from mockup to rollout and work with diverse teams to implement projects.
-        </h2>
+        <div className="aboutMe" >My name is Almaz Dolubaev. I am a Full Stack JavaScript Web Developer. I build complex websites with full frontend and backend all the way from mockup to rollout and work with diverse teams to implement projects.
+        </div>
         <br></br>
-         <h2>
+         <div className="aboutMe">
          My previous experiences in banking and entrepreneurship helped me nurture my passion to coding, which has been always the area of my interest.   
-        </h2>
+        </div>
       </div>
       </ Col>
     </ Row>

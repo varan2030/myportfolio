@@ -4,9 +4,23 @@ import "./ProjectCard.css";
 
 // Project card component
 const ProjectCard = props => (
-  <div onClick={() => props.clickCard(props.link)} className="card ">
+  <div className="card ">
+
+  <div className="container">
+  <div className="artwork">
+    <div className="side">
     <img className="card-img-top" src={props.image} alt={props.name}/>
-    <h3 className="text-center">{props.description}</h3>
+    </div>
+    <div className="side back">
+    <img className="card-img-top" src="/images/backgr1.jpg" alt={props.name}/>
+    </div>
+  </div>
+  <div>
+  <h3 className="text-center" onClick={() => props.clickCard(props.link)} >{props.title}</h3>
+</div>
+</div>
+   
+    
   </div>
   
 );

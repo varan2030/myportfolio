@@ -15,7 +15,7 @@ class App extends Component {
   // Set our state variables
   state = {
     cardNumber: 3,
-    display: "more..."
+    display: "show more"
   }
   // Card is clicked
   clickCard = link => {
@@ -25,10 +25,10 @@ class App extends Component {
   displayProjects = () =>{
     if(this.state.cardNumber === 3){
     this.setState({cardNumber: 12})
-    this.setState({display: "less"})
+    this.setState({display: "show less"})
     } else {
       this.setState({cardNumber: 3})
-      this.setState({display: "more..."})
+      this.setState({display: "show more"})
     }
   }
 
@@ -58,7 +58,7 @@ class App extends Component {
                   id={project.id}
                   key={project.id}
                   image={project.image} 
-                  description={project.description}
+                  title={project.title}
                   link={project.link}/>))}
                   
           </Wrapper>

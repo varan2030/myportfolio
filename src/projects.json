@@ -1,102 +1,100 @@
 [
-    
   {
     "id": 12,
     "image": "/images/12.jpg",
     "title": "Persona",
-    "description": "",
-    "technologies": "",
+    "description": "Persona is an application that captures an image then matches in AWS Rekognition API. The primary use case is for restaurants and bars to be able to provide more personalized service to their patrons.",
+    "technologies": "AWS API, REACT, Mongo DB, Node.js, Express.js, AXIOS, JavaScript, HTML, CSS, Reactstrap, Bulma, GIT, GitHub",
     "link": "https://persona-com.herokuapp.com/"
   },
-
   {
     "id": 11,
     "image": "/images/11.jpg",
     "title": "Animal Kingdom",
-    "description": "",
-    "technologies": "",
+    "description": "Application matches pets that need homes with people best suited to take care of them!",
+    "technologies": "Petfinder API, MySQL, Node.js, JavaScript, jQuery, Express.js, AJAX, HTML, CSS, Bulma, GIT, GitHub",
     "link": "https://animalkingdom.herokuapp.com/"
   },
   {
     "id": 9,
     "image": "/images/9.jpg",
     "title": "Travel Lion",
-    "description": "",
-    "technologies": "",
+    "description": "This application allows users to search for a Venues, Live Events and Weather within a certain radius based on there location",
+    "technologies": "Google API, Yahoo weather API, Ticketmaster API, jQuery, AJAX, JavaScript, HTML, CSS, Bootstrap",
     "link": "https://varan2030.github.io/TravelLion/"
   },
-   {
-    "id": 3,
-    "image": "/images/3.jpg",
-    "title": "Christmas Trivia Game",
-    "description": "",
-    "technologies": "",
-    "link": "https://varan2030.github.io/TriviaGame/"
-  },
+  
   {
     "id": 5,
     "image": "/images/5.jpg",
     "title": "Task Manager",
-    "description": "",
-    "technologies": "",
+    "description": "Task Manager! is an app that lets users input the tasks, Responsible for task, Deadline, Priority and Description. ",
+    "technologies": "MySQL, Template literal, MVC, Node.js, JavaScript, jQuery, Express.js, AJAX, HTML, CSS",
     "link": "https://taskmanager-com.herokuapp.com/"
   },
-  
+  {
+    "id": 3,
+    "image": "/images/3.jpg",
+    "title": "Christmas Trivia Game",
+    "description": "The player will have a limited time length to finish the game. When the time runs out (regardless of whether or not they finished), the game will end and they will be shown the number of answers they got correct and incorrect",
+    "technologies": "JavaScript, HTML, CSS, jQuery, Bootstrap",
+    "link": "https://varan2030.github.io/TriviaGame/"
+  },
   {
     "id": 4,
     "image": "/images/4.jpg",
     "title": "Wild Animals",
-    "description": "",
-    "technologies": "",
+    "description": "Application use the GIPHY API to make a dynamic web page that populates with gifs of your choice. App calls the GIPHY API and use JavaScript and jQuery to change the HTML of the site.",
+    "technologies": "GIPHY API, JavaScript, jQuery, HTML, CSS",
     "link": "https://varan2030.github.io/GifTastic/"
   },
-  {
-    "id": 1,
-    "image": "/images/1.jpg",
-    "title": "Hangman. Music 90s",
-    "description": "",
-    "technologies": "",
-    "link": "https://varan2030.github.io/Hangman-game/"
-  },
-  {
-    "id": 2,
-    "image": "/images/2.jpg",
-    "title": "Crystal Game",
-    "description": "",
-    "technologies": "",
-    "link": "https://varan2030.github.io/crystal-collector/"
-  },
+  
   {
     "id": 6,
     "image": "/images/6.jpg",
     "title": "Friend Finder",
-    "description": "",
-    "technologies": "",
+    "description": "Friend-Finder is a dating app. This full-stack site will take in results your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+    "technologies": "JavaScript, jQuery, Node.js, AJAX, Express.js, HTML, Bootstrap",
     "link": "https://friendfinder-com.herokuapp.com/"
   },
   {
     "id": 7,
     "image": "/images/7.jpg",
     "title": "Train Schedule",
-    "description": "",
-    "technologies": "",
+    "description": "Accepts user input to add new train name, start time and frequency to schedule. Displays schedule in repeating table with next arrival based on current time and frequency of train stops. Stores Train info in Firebase for data persistence and retreives information from database on load. ",
+    "technologies": "Firebase, Moment.js, JavaScript, jQuery, HTML, CSS, Bootstrap",
     "link": "https://varan2030.github.io/TrainActivity/"
   },
   {
     "id": 8,
     "image": "/images/8.jpg",
     "title": "Eat-Da-Burger",
-    "description": "",
-    "technologies": "",
+    "description": "You can create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Being sure to follow the MVC design pattern; use Node and MySQL to query and route data in the app, and use Handlebars to generate your HTML.",
+    "technologies": "MySQL, ORM, MVC, Node.js, Express.js, Handlebars, AJAX, JavaScript, Bootstrap, HTML, CSS",
     "link": "https://burger-app-com.herokuapp.com/"
   },
- 
   {
     "id": 10,
     "image": "/images/10.jpg",
     "title": "Node.JS apps",
-    "description": "",
-    "technologies": "",
+    "description": "Node.js applications",
+    "technologies": "Node.js, Twitter API, OMDB API, Spotify API, MySQL, Express.js, NPM package",
     "link": "https://github.com/varan2030?tab=repositories"
-  }  
+  },
+  {
+    "id": 1,
+    "image": "/images/1.jpg",
+    "title": "Hangman. Music 90s",
+    "description": "Hangman Game.",
+    "technologies": "JavaScript, CSS, HTML",
+    "link": "https://varan2030.github.io/Hangman-game/"
+  },
+  {
+    "id": 2,
+    "image": "/images/2.jpg",
+    "title": "Crystal Game",
+    "description": "Fun and interactive Crystal game for web browsers.",
+    "technologies": "JavaScript, jQuery, HTML, CSS",
+    "link": "https://varan2030.github.io/crystal-collector/"
+  }
 ]

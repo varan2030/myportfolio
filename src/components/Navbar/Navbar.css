@@ -1,4 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 .navbar-custom {
   background-color: rgb(48, 47, 102);
   box-shadow: 2px 4px 8px #999;
+  height: 70px;
 }
+
+.menu{
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  cursor: pointer;
+}
+
+.dropdown{
+  position: absolute;
+  right:  50px;
+  
+}
+
+.dropdown-menu{
+  opacity: 0.8;
+  box-shadow: 2px 4px 8px #999;
+}
+
+
+.navbar-text:hover{
+  font-size: 17px;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.dropdown-item:hover{
+  background-color: rgb(232,241,248);
+}
+
+.modal-content{
+  background-color: rgb(232,241,248);
+  box-shadow: 2px 4px 8px #999;
+ 
+}
+
+.modal-header, .submit{
+  background-color: rgb(48, 47, 102);
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+
+.form-group, .label, .submit{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+
+.submit:hover{
+  cursor: pointer;
+  box-shadow: 2px 4px 8px #999;
+}
+
+/* .icon:hover{
+  height: 52px;
+  width: 52px;
+} */
+

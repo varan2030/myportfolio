@@ -19,7 +19,7 @@ class App extends Component {
   }
   // Card is clicked
   clickCard = link => {
-    window.location = link;
+    window.open(link, '_blank');
   };
 
   displayProjects = () =>{
@@ -59,6 +59,8 @@ class App extends Component {
                   key={project.id}
                   image={project.image} 
                   title={project.title}
+                  description={project.description}
+                  technologies={project.technologies}
                   link={project.link}/>))}
                   
           </Wrapper>

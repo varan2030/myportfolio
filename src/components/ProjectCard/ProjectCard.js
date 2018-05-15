@@ -12,11 +12,12 @@ const ProjectCard = props => (
     <img className="card-img-top" src={props.image} alt={props.name}/>
     </div>
     <div className="side back">
-    <img className="card-img-top" src="/images/backgr1.jpg" alt={props.name}/>
+    <p>{props.description}</p>
+    <p>Technologies: {props.technologies}</p>
     </div>
   </div>
   <div>
-  <h3 className="text-center" onClick={() => props.clickCard(props.link)} >{props.title}</h3>
+  <h3 className="title text-center" onClick={() => props.clickCard(props.link)} >{props.title}</h3>
 </div>
 </div>
    

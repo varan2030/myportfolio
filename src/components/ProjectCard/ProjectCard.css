@@ -21,10 +21,11 @@
 img{
 height: 250px;
 width: 250px;
-padding: 0px;
+margin-top: 10px;
 margin-left: auto;
 margin-right: auto;
 display: block;
+border-style: outset;
 }
 
 h3 {
@@ -63,9 +64,20 @@ h3 {
   width: 100%;
 }
 .artwork .back {
-  background: #eaeaed;
-  color: #111213;
-  line-height: 150px;
-  text-align: center;
+  background:rgb(240, 247, 255);
+  color: rgb(48, 47, 102);
+  padding: 10px;
+  margin-top: 10px;
+  /* line-height: 10px; */
+  text-align: justify;
   transform: rotateY(180deg);
+  border-style: outset;
+}
+p{
+  font-family: 'EB Garamond', serif;
+}
+
+h3:hover{
+  color: rgb(209, 135, 45);
+  text-decoration: underline;
 }

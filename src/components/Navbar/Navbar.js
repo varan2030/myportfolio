@@ -16,7 +16,7 @@ const Navbar = props => (
     </a>
     <a className="dropdown-item"  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dolubaev/">
     <img className="icon" src="/images/linkedin.png" alt="icon"/></a>
-    <a className="dropdown-item"  data-toggle="modal" data-target="#emailModal">
+    <a className="dropdown-item"  data-toggle="modal" data-target="#emailModal" >
     <img className="icon" src="/images/message.png" alt="icon" /></a>
     {/* <button  onClick={this.getMenuData}>Take Order</button> */}
   </div>

@@ -15,13 +15,15 @@
 
 .dropdown{
   position: absolute;
-  right:  50px;
+  right:  180px;
   
 }
 
 .dropdown-menu{
-  opacity: 0.8;
+  opacity: 0.95;
   box-shadow: 2px 4px 8px #999;
+  width: 260px;
+ 
 }
 
 
@@ -68,3 +70,36 @@
   width: 52px;
 } */
 
+.email{
+  display: none;
+  position: relative;
+  left: 20px;
+  font-family: 'EB Garamond', serif;
+
+}
+
+.linkedin{
+  display: none;
+  position: relative;
+  left: 25px;
+  font-family: 'EB Garamond', serif;
+}
+
+.github{
+  display: none;
+  position: relative;
+  left: 35px;
+  font-family: 'EB Garamond', serif;
+}
+
+.emailIcon:hover .email {
+  display: block;
+}
+
+.linkedinIcon:hover .linkedin{
+  display: block;
+}
+
+.githubIcon:hover .github{
+  display: block;
+}

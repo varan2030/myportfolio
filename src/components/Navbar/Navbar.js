@@ -11,18 +11,21 @@ const Navbar = props => (
    Contact
   </div>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a className="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://github.com/varan2030">
+    <a className="dropdown-item githubIcon" target="_blank" rel="noopener noreferrer" href="https://github.com/varan2030">
     <img className="icon" src="/images/github.png" alt="icon"/>
+    <div className="github">github.com/varan2030</div>
     </a>
-    <a className="dropdown-item"  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dolubaev/">
-    <img className="icon" src="/images/linkedin.png" alt="icon"/></a>
-    <a className="dropdown-item"  data-toggle="modal" data-target="#emailModal" >
-    <img className="icon" src="/images/message.png" alt="icon" /></a>
+    <a className="dropdown-item linkedinIcon"  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dolubaev/">
+    <img className="icon" src="/images/linkedin.png" alt="icon"/><div className="linkedin">linkedin.com/in/dolubaev/</div></a>
+    <a className="dropdown-item  emailIcon" href="mailto:almaz.dolubaev@gmail.com?Subject=Looking%20for%20a%20candidate" target="_top">
+    <img className="icon" src="/images/message.png" alt="icon" />
+    <div className="email">almaz.dolubaev@gmail.com</div>
+    </a>
     {/* <button  onClick={this.getMenuData}>Take Order</button> */}
   </div>
 </div>
   </nav>
-       <div className="modal fade" id="emailModal" tabIndex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+       {/* <div className="modal fade" id="emailModal" tabIndex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header modal-header-pers">
@@ -53,14 +56,14 @@ const Navbar = props => (
     </form>
 
               </div>
-              {/* <div className="modal-footer"> */}
+              <div className="modal-footer"> 
               
                  
                
-              {/* </div> */}
+               </div>
             </div>
           </div>
-        </div>
+        </div> */}
   </Container>
 );
 

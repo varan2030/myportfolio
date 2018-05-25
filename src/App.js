@@ -4,7 +4,6 @@ import ProjectCard from "./components/ProjectCard";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import Footer from "./components/Footer";
 import Section from "./components/Section";
 import projects from "./projects.json";
 import {Container } from 'reactstrap';
@@ -65,8 +64,7 @@ class App extends Component {
                   
           </Wrapper>
           <h1 className="text-right" onClick={this.displayProjects} style={{cursor: 'pointer'}}>{this.state.display}</h1 >
-        <Footer />
-      </div>
+            </div>
      <div>
       <Favicon url="/images/favicon1.png" />
     </div>

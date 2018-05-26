@@ -14,6 +14,7 @@ const ProjectCard = props => (
     <div className="side back">
     <p>{props.description}</p>
     <p>Technologies: {props.technologies}</p>
+    <a href={props.github} target="_blank">GitHub</a>
     </div>
   </div>
   <div>

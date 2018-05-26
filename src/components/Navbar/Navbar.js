@@ -6,8 +6,8 @@ import {Container} from 'reactstrap';
 const Navbar = props => (
   <Container>
   <nav className="navbar fixed-top navbar-dark navbar-custom p-2">
-  <div className="dropdown">
-  <div className="menu dropdown-toggle text-white" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <div className="dropdown ">
+  <div className="menu dropdown-toggle text-white " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
    Contact
   </div>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">

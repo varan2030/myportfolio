@@ -60,7 +60,8 @@ class App extends Component {
                   title={project.title}
                   description={project.description}
                   technologies={project.technologies}
-                  link={project.link}/>))}
+                  link={project.link}
+                  github={project.github}/>))}
                   
           </Wrapper>
           <h1 className="text-right" onClick={this.displayProjects} style={{cursor: 'pointer'}}>{this.state.display}</h1 >
